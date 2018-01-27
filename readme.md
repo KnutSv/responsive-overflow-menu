@@ -1,14 +1,14 @@
-#Responsive overflow menu
+# Responsive overflow menu
 
 Vanilla JS function for making a horizontal menu progressively collapse into an expandable menu. Work in progress ...
 
-##Simple usage
+## Simple usage
 In this case `mainMenu` is the id of a list of menu items
 ```javascript
 new roMenu(document.getElementById('mainMenu'));
 ```
 
-##Complex usage
+## Complex usage
 An options object can be passed to the function, with any of these options to override the default values. These are the default values:
 ```javascript
 new roMenu(document.getElementById('mainMenu', {
@@ -27,5 +27,5 @@ new roMenu(document.getElementById('mainMenu', {
 }));
 ```
 
-##Credit
+## Credit
 This code makes use of [CSS Element Queries](https://github.com/marcj/css-element-queries) by [Marc J. Schmidt](https://twitter.com/MarcJSchmidt) to trigger the re-arranging of menu items when the browser is resizing.
